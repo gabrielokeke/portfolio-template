@@ -1,8 +1,9 @@
-"use client"
+/* eslint-disable @next/next/no-img-element */
+"use client";
 
 interface GalleryItemProps {
-  src: string
-  title: string
+  src: string;
+  title: string;
 }
 
 const GalleryItem: React.FC<GalleryItemProps> = ({ src, title }) => {
@@ -12,10 +13,11 @@ const GalleryItem: React.FC<GalleryItemProps> = ({ src, title }) => {
         src={src}
         alt={title}
         className="w-full h-40 object-contain rounded-md mx-auto"
+        loading="lazy"
       />
       <p className="mt-2 text-sm font-semibold text-gray-200">{title}</p>
     </div>
-  )
-}
+  );
+};
 
-export default GalleryItem
+export default GalleryItem;

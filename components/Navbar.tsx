@@ -24,7 +24,7 @@ export default function Navbar() {
       <nav className="fixed left-0 top-0 z-50 flex w-full items-center justify-between bg-yellow-400 px-6 py-4 shadow-md md:px-20">
         {/* Logo */}
         <div>
-          <h1 className="font-extrabold text-3xl text-black">Jannie</h1>
+          <h1 className="font-extrabold text-3xl text-black">Your Name</h1>
         </div>
 
         {/* Desktop Nav Links */}
@@ -76,7 +76,7 @@ export default function Navbar() {
       >
         <div className="flex items-center justify-between p-6">
           <h1 className="font-extrabold text-3xl text-black cursor-pointer" onClick={closeSidebar}>
-            Jannie
+            Your Name
           </h1>
           <button
             onClick={closeSidebar}

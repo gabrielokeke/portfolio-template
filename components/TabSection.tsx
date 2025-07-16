@@ -75,7 +75,7 @@ const TabSection: React.FC = () => {
         <ul className="pl-5">
           <li className="list-none my-2.5">
             <span className="text-yellow-400 text-sm font-semibold">Name</span>
-            <br />Jannie Onyinyechi
+            <br />Your Name
           </li>
           <li className="list-none my-2.5">
             <span className="text-yellow-400 text-sm font-semibold">Height</span>
@@ -83,7 +83,7 @@ const TabSection: React.FC = () => {
           </li>
           <li className="list-none my-2.5">
             <span className="text-yellow-400 text-sm font-semibold">Age</span>
-            <br />22 years old
+            <br />24 years old
           </li>
           <li className="list-none my-2.5">
             <span className="text-yellow-400 text-sm font-semibold">Measurements</span>
