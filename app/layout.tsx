@@ -15,6 +15,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+            <head>
+        <link rel="icon" href="/favicon.ico" />
+        {/* or for PNG */}
+        {/* <link rel="icon" type="image/png" href="/favicon.png" /> */}
+      </head>
+
       <body className="flex min-h-screen flex-col">
         <Navbar />
         <main className="flex-grow-1">{children}</main>
