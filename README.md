@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Fashion Model Portfolio Template (Next.js)
 
-## Getting Started
+A clean, modern, and animated portfolio template built with Next.js 15, Tailwind CSS, and TypeScript — designed for fashion models, creators, and visual artists. Fully responsive and easy to customize.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Stylish animated hero section
+- Gallery with album-style grouping
+- Contact form with validation (Formspree-ready)
+- Mobile-friendly, responsive design
+- TypeScript + ESLint + Tailwind CSS
+- No personal data — ready to reuse or sell
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Clone the repo**
+   git clone https://github.com/gabrielokeke/portfolio-template.git
+   cd portfolio-template
+   
+2. **Install dependencies**
+   npm install
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. **Run locally**
+   npm run dev
 
-## Learn More
+4. **Build for production**
+   npm run build && npm start
 
-To learn more about Next.js, take a look at the following resources:
+📁 Structure
+app/ — Next.js 15 app directory
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+components/ — Reusable UI parts (form, gallery, etc.)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+public/ — Replace with your own images (/model1.jpg, etc.)
 
-## Deploy on Vercel
+✉️ Contact Form Setup
+This template uses Formspree. To activate:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Create a Formspree account at https://formspree.io
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Create a new form and get your form endpoint
+
+Replace the endpoint inside components/ContactForm.tsx
+
+📸 Customizing the Gallery
+Replace image files in public/ (e.g. model1.jpg, model2.jpg)
+
+Update the image paths and titles in GalleryPage.tsx
+
+🧼 Clean Before Shipping
+Before sharing or selling:
+
+Delete .next/, node_modules/, and .env (if used)
+
+Keep only the source files (app, components, public, etc.)
+
+Zip and name the package:
+nextjs-fashion-portfolio-template.zip
+
+📄 License
+This template is a paid digital product and not open-source.
+You may not use, copy, modify, or redistribute it for any purpose without purchasing a license or receiving explicit permission from the author.
+
+If you'd like to use this template for a client project, portfolio, or resale:
+
+📩 Contact Gabriel Okeke at: project.gabby84@gmail.com
+💳 Licenses are available upon request.
